@@ -1,9 +1,12 @@
-num1  = int(input("Введите Первое число: "))
-num2  = int(input("Введите Второе число: "))
+num1 = int(input("Введите число: "))
+num2 = int(input("Введите число: "))
 
-temp = num1
-num1 = num2
-num2 = temp
-print("после обмена:")
-print("Первое число",num1)
-print("Второе число",num2)
+plus = num1 + num2
+minus= num1 - num2
+delenie = num1 / num2
+mul = num1 * num2
+
+print(plus)
+print(minus)
+print(delenie)
+print(mul)
